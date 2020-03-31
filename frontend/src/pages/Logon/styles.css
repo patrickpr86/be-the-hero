@@ -1,4 +1,4 @@
-.logon-containner {
+.logon-container {
     width: 100%;
     max-width: 1120px;
     height: 100vh;
@@ -12,17 +12,19 @@
 
 }
 
-.logon-containner section.form {
+.logon-container section.form {
     width: 100%;
     max-width: 350px;
     margin-right: 30px;
 }
 
-.logon-containner section.form form {
+.logon-container section.form form {
     margin-top: 100px;
 }
 
-.logon-containner section.form form h1 {
+.logon-container section.form form h1 {
     font-size: 32px;
     margin-bottom: 32px;
 }
+
+

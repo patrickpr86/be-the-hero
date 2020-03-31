@@ -45,11 +45,31 @@ text-align: center;
 text-decoration: none;
 font-size: 18px;
 line-height: 60px;
-transition: filter 0,4s;
+transition: filter 0,2s;
 
 
 }
 
 .button:hover {
-    filter: brightness(80%);
+    filter: brightness(90%);
+}
+
+.back-link linkform a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500px
+    
+}
+
+.back-link linka svg {
+    margin-right: 8px;
+}
+
+.back-link:hover {
+opacity: 0.8;
+
 }
