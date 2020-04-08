@@ -15,7 +15,7 @@ Aplicação com intuito de conectar pessoas interessadas em ajudar ONGS. Desenvo
 ✔  Alterações da animação da navegação do mobile para deixá-la igual a de IOS.  
 ✔  Aviso caso ONG não tenha um caso cadastrado.  
 ✔  Eslint e Prettier para padronizar o código.  
-✔  Aplicação com construida com testes de integrações e unitários.  
+✔  Aplicação construida com testes de integrações e unitários.  
 
 
 
