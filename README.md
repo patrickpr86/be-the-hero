@@ -10,13 +10,13 @@ Aplicação com intuito de conectar pessoas interessadas em ajudar ONGS. Desenvo
 
 # Características 
 
-✔  Mudança de temas (Braco / Escuro).
-✔  Utilizaço de Styled-components para estilizaço da API.
-✔  Animações nos botões e nos inputs.
-✔  Alterações da animação da navegação do mobile para deixá-la igual a de IOS.
-✔  Aviso caso ONG não tenha um caso cadastrado
-✔  Eslint e Prettier para padronizar o código.
-✔  Aplicação com construida com testes de integrações e unitários.
+✔  Mudança de temas (Braco / Escuro).  
+✔  Utilizaço de Styled-components para estilizaço da API.  
+✔  Animações nos botões e nos inputs.  
+✔  Alterações da animação da navegação do mobile para deixá-la igual a de IOS.  
+✔  Aviso caso ONG não tenha um caso cadastrado.  
+✔  Eslint e Prettier para padronizar o código.  
+✔  Aplicação com construida com testes de integrações e unitários.  
 
 
 
