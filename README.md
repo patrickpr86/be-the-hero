@@ -2,7 +2,6 @@
 
 
 
-
 # Be The Hero
 
 Aplicação com intuito de conectar pessoas interessadas em ajudar ONGS. Desenvolvida com Node.js, ReactJS e React Native.
@@ -10,8 +9,8 @@ Aplicação com intuito de conectar pessoas interessadas em ajudar ONGS. Desenvo
 
 # Características 
 
-✔  Mudança de temas (Braco / Escuro).  
-✔  Utilizaço de Styled-components para estilizaço da API.  
+✔  Mudança de temas.  
+✔  Utilização de Styled-components para estilizaço da API.  
 ✔  Animações nos botões e nos inputs.  
 ✔  Alterações da animação da navegação do mobile para deixá-la igual a de IOS.  
 ✔  Aviso caso ONG não tenha um caso cadastrado.  
@@ -28,10 +27,6 @@ Aplicação com intuito de conectar pessoas interessadas em ajudar ONGS. Desenvo
 
 ![photo_2020-04-08_14-35-32](https://user-images.githubusercontent.com/57975021/78816250-dc417c80-79a7-11ea-9737-d0950387ee7b.jpg)
 ![photo_2020-04-08_14-36-53](https://user-images.githubusercontent.com/57975021/78816256-dd72a980-79a7-11ea-8d24-1652eead7314.jpg)
-
-
-# Back-end:
-![Captura de tela de 2020-04-08 12-50-10](https://user-images.githubusercontent.com/57975021/78814301-c7171e80-79a4-11ea-84d3-fd9eaeae55fd.png)
 
 # Tecnologias
 
