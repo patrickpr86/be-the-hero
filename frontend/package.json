@@ -11,7 +11,11 @@
     "react-dom": "^16.13.1",
     "react-icons": "^3.9.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-switch": "^5.0.1",
+    "styled-components": "^5.1.0",
+    "switch": "0.0.0",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",

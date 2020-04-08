@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiLogIn } from 'react-icons/fi';
+import { ThemeContext } from 'styled-components';
 
 import api from '../../services/api';
 
-import './styles.css';
+import { Container, SectionForm, Button, Form } from './styles';
 
-import logoImg from '../../assets/logo.svg';
+
+
+
 import heroesImg from '../../assets/heroes.png';
 
 export default function Logon() {
@@ -29,12 +32,14 @@ export default function Logon() {
         }
     }
 
-    return (
-        <div className="logon-container">
-            <section className="form">
-                <img src={logoImg} alt="Be the Hero" />
+    const  { logo } = useContext(ThemeContext);
 
-                <form onSubmit={handleLogin}> 
+    return (
+        <Container>
+            <SectionForm>
+                <img src={logo} alt="Be the Hero" />
+
+                <Form onSubmit={handleLogin}> 
                     <h1>Faça seu logon</h1>
 
                     <input 
@@ -43,16 +48,16 @@ export default function Logon() {
                     onChange={e => setID(e.target.value)}
                     />
 
-                    <button className="button" type="submit">Entrar</button>
+                    <Button type="submit">Entrar</Button>
 
-                    <Link className="back-link" to="/register">
+                    <Link to="/register">
                         <FiLogIn size={16} color="#e02041" />
                         Não tenho cadastro
                     </Link>
-                </form>
-            </section>
+                </Form>
+            </SectionForm>
 
             <img src={heroesImg} alt="Heroes" />
-        </div>
+        </Container>
     );
 }
