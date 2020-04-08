@@ -1,6 +1,7 @@
-<h1 align="center">
-    <img alt="Be The Hero" src="github/logo.svg" width="200px" />
-</h1>
+![](https://user-images.githubusercontent.com/57975021/78825101-c5a22200-79b5-11ea-8664-9bd029e76c55.gif)
+
+
+
 
 # Be The Hero
 
